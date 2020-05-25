@@ -41,7 +41,7 @@ class TransactionsRepository {
     const balance = {
       income,
       outcome,
-      total: income + outcome,
+      total: income - outcome,
     };
 
     return balance;
